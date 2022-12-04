@@ -1,0 +1,120 @@
+:root
+{
+    --font: arial;
+}
+
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+html
+{
+    
+    width: 100%;
+    height: 100%;
+   
+}
+
+body
+{
+    display: flex;
+    width: 100%;
+    height: 100%;
+   
+}
+
+aside
+{
+    width: 15%;
+    background-color: rgb(0, 172, 174);
+}
+
+section.main-container
+{
+    width: 85%;
+    margin-top: 20px;
+}
+
+section.main-container .logo-form
+{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+section.main-container .logo-form .logo img
+{
+   width: 347px;
+}
+
+section.main-container .logo-form .upper-form form
+{
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+        
+}
+
+section.main-container .logo-form .upper-form .usr
+{
+    height: 29px;
+    width: 353px;
+    margin-bottom: 5px;
+}
+section.main-container .logo-form .upper-form .pwd
+{
+    height: 29px;
+    width: 353px;
+    margin-bottom: 5px;
+}
+section.main-container .logo-form .upper-form .btn
+{
+    height: 29px;
+    background-color: #d1d1d1;
+    width: 33px;
+    border: 0.5px solid;    
+}
+
+section.main-container .text-form
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+section.main-container .text-form .text
+{
+    font-family: var(--font);
+    font-size: 14px;
+    font-style: italic;
+    margin-bottom: 5px;
+    
+}
+
+section.main-container .text-form .bottom-form
+{
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+}
+
+section.main-container .text-form .bottom-form .email-form
+{
+    height: 29px;
+    width: 353px;  
+    margin-bottom: 5px;
+}
+
+section.main-container .text-form .bottom-form .usr-pwd
+{
+    height: 28px;
+    width: 167px;
+    background-color: #d1d1d1;
+    border: 0.5px solid; 
+
+}
